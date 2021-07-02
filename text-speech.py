@@ -3,7 +3,7 @@ import nltk
 from gtts import gTTS
 import os
 
-article = Article('D:\Reasearch Paper\hello.pdf')
+article = Article('Path to webpage')
 article.download()
 article.parse()
 nltk.download('punkt')
